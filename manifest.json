@@ -1,0 +1,17 @@
+{
+    "name": "feed remover",
+    "version": "1.0.0.0",
+    "description": "remove the feed remove the distraction",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "./index.html",
+        "default_title": "feed remover",
+        "default_icon": "./youtube-blocking.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/"],
+            "js": ["content_script.js"]
+        }
+    ]
+}
