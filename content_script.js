@@ -1,5 +1,5 @@
 window.onload = function () {
     let feed = document.querySelector("#primary");
-    console.log(feed);
-    feed.remove();
+    feed.textContent = "Feed Has Been Removed Successfully";
+    feed.classList.add("feed_removed_info");
 };

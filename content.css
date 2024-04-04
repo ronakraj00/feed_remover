@@ -1,0 +1,9 @@
+.feed_removed_info {
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px !important;
+    word-break: break-all;
+}
